@@ -1,3 +1,10 @@
+
+ImageView imageView = new ImageView(this);  
+Bitmap bImage = BitmapFactory.decodeResource(this.getResources(), R.drawable.my_image);
+imageView.setImageBitmap(bImage);
+//Navneet
+
+
 <Button
     android:id="@+id/buttonContinue"
     android:layout_width="wrap_content"
