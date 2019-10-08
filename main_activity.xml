@@ -1,3 +1,7 @@
 <TextView>
   Hello from the other side!
-</TextView>
+</Text>
+//Navneet garg
+
+ImageView img= (ImageView) findViewById(R.id.image);
+img.setImageResource(R.drawable.my_image);
