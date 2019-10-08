@@ -1,8 +1,17 @@
 
+<TextView>
+  Hello from the other side!
+</Text>
+
+
+ImageView img= (ImageView) findViewById(R.id.image);
+img.setImageResource(R.drawable.my_image);
+
+
 ImageView imageView = new ImageView(this);  
 Bitmap bImage = BitmapFactory.decodeResource(this.getResources(), R.drawable.my_image);
 imageView.setImageBitmap(bImage);
-//Navneet
+
 
 
 <Button
@@ -16,4 +25,3 @@ imageView.setImageBitmap(bImage);
     android:text="@string/continue_game" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
 
 
-//Navneet.g
