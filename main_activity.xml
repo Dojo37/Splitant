@@ -1,3 +1,5 @@
-<TextView>
-  Hello from the other side!
-</TextView>
+ImageView imageView = new ImageView(this);  
+Bitmap bImage = BitmapFactory.decodeResource(this.getResources(), R.drawable.my_image);
+imageView.setImageBitmap(bImage);
+//Navneet
+
