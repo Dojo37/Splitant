@@ -1,6 +1,24 @@
 
 <TextView>
   Hello from the other side!
+
+</TextView>
+
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#cc8181"
+ >
+
+<ImageView
+  android:id="@+id/image"
+  android:layout_width="50dip"
+  android:layout_height="fill_parent" 
+  android:src="@drawable/icon"
+  android:layout_marginLeft="3dip"
+  android:scaleType="center"/>
+
 </Text>
 
 
@@ -23,5 +41,3 @@ imageView.setImageBitmap(bImage);
     android:layout_gravity="center"
     android:gravity="center"
     android:text="@string/continue_game" android:layout_marginTop="3dp" android:layout_marginBottom="3dp"/>
-
-
